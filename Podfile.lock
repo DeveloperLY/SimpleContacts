@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Masonry (~> 1.1.0)
+  - ReactiveObjC (~> 3.1.1)
+  - SVProgressHUD (~> 2.2.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - ReactiveObjC
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 8de9e520fdc7923af7468b77b456ddc10c1d50c7
+
+COCOAPODS: 1.6.1
