@@ -16,6 +16,13 @@
 		184874F422E0714500E18B6F /* SimpleContactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184874F322E0714500E18B6F /* SimpleContactsUITests.m */; };
 		1848750F22E0770400E18B6F /* LYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848750E22E0770400E18B6F /* LYViewController.m */; };
 		1848751722E0799A00E18B6F /* LYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848751622E0799A00E18B6F /* LYLoginViewController.m */; };
+		188D191222E1486700BA00F3 /* LYLoginAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D191122E1486700BA00F3 /* LYLoginAnimationView.m */; };
+		188D191522E1503A00BA00F3 /* LYLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D191422E1503A00BA00F3 /* LYLoginViewModel.m */; };
+		188D191822E1526800BA00F3 /* LYViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D191722E1526800BA00F3 /* LYViewModel.m */; };
+		188D191C22E158E500BA00F3 /* LYConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D191B22E158E500BA00F3 /* LYConstant.m */; };
+		188D192122E1B43700BA00F3 /* LYContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D192022E1B43700BA00F3 /* LYContactsViewController.m */; };
+		188D192522E1B7C300BA00F3 /* LYContactsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D192422E1B7C300BA00F3 /* LYContactsViewModel.m */; };
+		188D192822E1BBB600BA00F3 /* LYAddContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D192722E1BBB600BA00F3 /* LYAddContactsViewController.m */; };
 		2E5B7CB2EEE6900E2788EAEE /* Pods_SimpleContactsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC4BDF9511847576DFA56D /* Pods_SimpleContactsUITests.framework */; };
 		85D42176A53E59086FD51FA4 /* Pods_SimpleContactsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BDC2938C4525BFE09C1444 /* Pods_SimpleContactsTests.framework */; };
 		E62E3869A62F6D982FE4A6C6 /* Pods_SimpleContacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F0E1CCCA529461C76ED5CB /* Pods_SimpleContacts.framework */; };
@@ -59,6 +66,20 @@
 		1848750E22E0770400E18B6F /* LYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYViewController.m; sourceTree = "<group>"; };
 		1848751522E0799A00E18B6F /* LYLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLoginViewController.h; sourceTree = "<group>"; };
 		1848751622E0799A00E18B6F /* LYLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLoginViewController.m; sourceTree = "<group>"; };
+		188D191022E1486700BA00F3 /* LYLoginAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLoginAnimationView.h; sourceTree = "<group>"; };
+		188D191122E1486700BA00F3 /* LYLoginAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLoginAnimationView.m; sourceTree = "<group>"; };
+		188D191322E1503A00BA00F3 /* LYLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLoginViewModel.h; sourceTree = "<group>"; };
+		188D191422E1503A00BA00F3 /* LYLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLoginViewModel.m; sourceTree = "<group>"; };
+		188D191622E1526800BA00F3 /* LYViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYViewModel.h; sourceTree = "<group>"; };
+		188D191722E1526800BA00F3 /* LYViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYViewModel.m; sourceTree = "<group>"; };
+		188D191A22E158E500BA00F3 /* LYConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYConstant.h; sourceTree = "<group>"; };
+		188D191B22E158E500BA00F3 /* LYConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYConstant.m; sourceTree = "<group>"; };
+		188D191F22E1B43700BA00F3 /* LYContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYContactsViewController.h; sourceTree = "<group>"; };
+		188D192022E1B43700BA00F3 /* LYContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYContactsViewController.m; sourceTree = "<group>"; };
+		188D192322E1B7C300BA00F3 /* LYContactsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYContactsViewModel.h; sourceTree = "<group>"; };
+		188D192422E1B7C300BA00F3 /* LYContactsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYContactsViewModel.m; sourceTree = "<group>"; };
+		188D192622E1BBB600BA00F3 /* LYAddContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAddContactsViewController.h; sourceTree = "<group>"; };
+		188D192722E1BBB600BA00F3 /* LYAddContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAddContactsViewController.m; sourceTree = "<group>"; };
 		22BDC2938C4525BFE09C1444 /* Pods_SimpleContactsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleContactsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28555C644F79F0F6C03DDA47 /* Pods-SimpleContactsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleContactsUITests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleContactsUITests/Pods-SimpleContactsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		67B814E8A7C673FAE0D6B2AA /* Pods-SimpleContactsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleContactsTests.release.xcconfig"; path = "Target Support Files/Pods-SimpleContactsTests/Pods-SimpleContactsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +172,7 @@
 		1848750122E0729200E18B6F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				188D191D22E1B40F00BA00F3 /* Contacts */,
 				1848751022E078F100E18B6F /* Login&Register */,
 				1848750222E072FE00E18B6F /* AppDelegate */,
 				1848750322E0731900E18B6F /* General */,
@@ -171,6 +193,7 @@
 		1848750322E0731900E18B6F /* General */ = {
 			isa = PBXGroup;
 			children = (
+				188D191922E158CE00BA00F3 /* Common */,
 				1848750722E075F700E18B6F /* Base */,
 			);
 			path = General;
@@ -201,6 +224,8 @@
 			children = (
 				1848750D22E0770400E18B6F /* LYViewController.h */,
 				1848750E22E0770400E18B6F /* LYViewController.m */,
+				188D191622E1526800BA00F3 /* LYViewModel.h */,
+				188D191722E1526800BA00F3 /* LYViewModel.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -218,7 +243,6 @@
 			children = (
 				1848751422E0796E00E18B6F /* Views */,
 				1848751322E0796200E18B6F /* ViewModels */,
-				1848751222E0795600E18B6F /* Models */,
 				1848751122E0793D00E18B6F /* ViewControllers */,
 			);
 			path = "Login&Register";
@@ -233,16 +257,11 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		1848751222E0795600E18B6F /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		1848751322E0796200E18B6F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				188D191322E1503A00BA00F3 /* LYLoginViewModel.h */,
+				188D191422E1503A00BA00F3 /* LYLoginViewModel.m */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -250,8 +269,48 @@
 		1848751422E0796E00E18B6F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				188D191022E1486700BA00F3 /* LYLoginAnimationView.h */,
+				188D191122E1486700BA00F3 /* LYLoginAnimationView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		188D191922E158CE00BA00F3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				188D191A22E158E500BA00F3 /* LYConstant.h */,
+				188D191B22E158E500BA00F3 /* LYConstant.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		188D191D22E1B40F00BA00F3 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				188D192222E1B76A00BA00F3 /* ViewModels */,
+				188D191E22E1B41900BA00F3 /* ViewControllers */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		188D191E22E1B41900BA00F3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				188D191F22E1B43700BA00F3 /* LYContactsViewController.h */,
+				188D192022E1B43700BA00F3 /* LYContactsViewController.m */,
+				188D192622E1BBB600BA00F3 /* LYAddContactsViewController.h */,
+				188D192722E1BBB600BA00F3 /* LYAddContactsViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		188D192222E1B76A00BA00F3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				188D192322E1B7C300BA00F3 /* LYContactsViewModel.h */,
+				188D192422E1B7C300BA00F3 /* LYContactsViewModel.m */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		4D6C5EDBBABBCAFF405BF971 /* Frameworks */ = {
@@ -507,10 +566,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188D191222E1486700BA00F3 /* LYLoginAnimationView.m in Sources */,
+				188D192122E1B43700BA00F3 /* LYContactsViewController.m in Sources */,
+				188D191522E1503A00BA00F3 /* LYLoginViewModel.m in Sources */,
 				1848750F22E0770400E18B6F /* LYViewController.m in Sources */,
+				188D192822E1BBB600BA00F3 /* LYAddContactsViewController.m in Sources */,
 				184874DF22E0714500E18B6F /* main.m in Sources */,
 				184874D122E0714400E18B6F /* AppDelegate.m in Sources */,
 				1848751722E0799A00E18B6F /* LYLoginViewController.m in Sources */,
+				188D192522E1B7C300BA00F3 /* LYContactsViewModel.m in Sources */,
+				188D191C22E158E500BA00F3 /* LYConstant.m in Sources */,
+				188D191822E1526800BA00F3 /* LYViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

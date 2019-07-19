@@ -9,5 +9,8 @@
 #ifndef UtilsMacro_h
 #define UtilsMacro_h
 
+// 强弱引用
+#define WeakSelf(type)  __weak typeof(type) weak##type = type; // weak
+#define StrongSelf(type)  __strong typeof(type) type = weak##type; // strong
 
 #endif /* UtilsMacro_h */

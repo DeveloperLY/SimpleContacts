@@ -14,19 +14,41 @@
 
 @implementation LYViewController
 
+// when `BaseViewController ` created and call `viewDidLoad` method , execute `bindViewModel` method
++ (instancetype)allocWithZone:(struct _NSZone *)zone {
+    LYViewController *viewController = [super allocWithZone:zone];
+    @weakify(viewController)
+    [[viewController rac_signalForSelector:@selector(viewDidLoad)] subscribeNext:^(id x) {
+         @strongify(viewController)
+         [viewController bindViewModel];
+     }];
+    return viewController;
+}
+
+
+- (instancetype)initWithViewModel:(LYViewModel *)viewModel {
+    if (self = [super init]) {
+        
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+#ifdef __IPHONE_11_0
+    /// ignore adjust scroll 64
+    self.automaticallyAdjustsScrollViewInsets = YES;
+#else
+    /// ignore adjust scroll 64
+    self.automaticallyAdjustsScrollViewInsets = NO;
+#endif
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+
+// bind the viewModel
+- (void)bindViewModel {}
 
 @end
