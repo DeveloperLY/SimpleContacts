@@ -23,6 +23,7 @@
 		188D192122E1B43700BA00F3 /* LYContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D192022E1B43700BA00F3 /* LYContactsViewController.m */; };
 		188D192522E1B7C300BA00F3 /* LYContactsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D192422E1B7C300BA00F3 /* LYContactsViewModel.m */; };
 		188D192822E1BBB600BA00F3 /* LYAddContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D192722E1BBB600BA00F3 /* LYAddContactsViewController.m */; };
+		188D192C22E1C78000BA00F3 /* LYContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D192B22E1C78000BA00F3 /* LYContact.m */; };
 		2E5B7CB2EEE6900E2788EAEE /* Pods_SimpleContactsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC4BDF9511847576DFA56D /* Pods_SimpleContactsUITests.framework */; };
 		85D42176A53E59086FD51FA4 /* Pods_SimpleContactsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BDC2938C4525BFE09C1444 /* Pods_SimpleContactsTests.framework */; };
 		E62E3869A62F6D982FE4A6C6 /* Pods_SimpleContacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F0E1CCCA529461C76ED5CB /* Pods_SimpleContacts.framework */; };
@@ -80,6 +81,8 @@
 		188D192422E1B7C300BA00F3 /* LYContactsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYContactsViewModel.m; sourceTree = "<group>"; };
 		188D192622E1BBB600BA00F3 /* LYAddContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAddContactsViewController.h; sourceTree = "<group>"; };
 		188D192722E1BBB600BA00F3 /* LYAddContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAddContactsViewController.m; sourceTree = "<group>"; };
+		188D192A22E1C78000BA00F3 /* LYContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYContact.h; sourceTree = "<group>"; };
+		188D192B22E1C78000BA00F3 /* LYContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYContact.m; sourceTree = "<group>"; };
 		22BDC2938C4525BFE09C1444 /* Pods_SimpleContactsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleContactsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28555C644F79F0F6C03DDA47 /* Pods-SimpleContactsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleContactsUITests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleContactsUITests/Pods-SimpleContactsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		67B814E8A7C673FAE0D6B2AA /* Pods-SimpleContactsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleContactsTests.release.xcconfig"; path = "Target Support Files/Pods-SimpleContactsTests/Pods-SimpleContactsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -287,6 +290,7 @@
 		188D191D22E1B40F00BA00F3 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				188D192922E1C72900BA00F3 /* Models */,
 				188D192222E1B76A00BA00F3 /* ViewModels */,
 				188D191E22E1B41900BA00F3 /* ViewControllers */,
 			);
@@ -311,6 +315,15 @@
 				188D192422E1B7C300BA00F3 /* LYContactsViewModel.m */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		188D192922E1C72900BA00F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				188D192A22E1C78000BA00F3 /* LYContact.h */,
+				188D192B22E1C78000BA00F3 /* LYContact.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		4D6C5EDBBABBCAFF405BF971 /* Frameworks */ = {
@@ -569,6 +582,7 @@
 				188D191222E1486700BA00F3 /* LYLoginAnimationView.m in Sources */,
 				188D192122E1B43700BA00F3 /* LYContactsViewController.m in Sources */,
 				188D191522E1503A00BA00F3 /* LYLoginViewModel.m in Sources */,
+				188D192C22E1C78000BA00F3 /* LYContact.m in Sources */,
 				1848750F22E0770400E18B6F /* LYViewController.m in Sources */,
 				188D192822E1BBB600BA00F3 /* LYAddContactsViewController.m in Sources */,
 				184874DF22E0714500E18B6F /* main.m in Sources */,

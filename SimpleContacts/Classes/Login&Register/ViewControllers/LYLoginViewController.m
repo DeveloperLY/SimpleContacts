@@ -81,6 +81,11 @@
         }
         [SVProgressHUD showErrorWithStatus:error.description];
     }];
+    
+    if (self.viewModel.isAutoLogin) {
+        [self.viewModel.loginCommand execute:nil];
+    }
+    
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
