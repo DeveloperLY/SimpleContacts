@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182F188B22E53AC4001340ED /* LYEditContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F188A22E53AC4001340ED /* LYEditContactsViewController.m */; };
+		182F188E22E564A4001340ED /* LYEditContactViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F188D22E564A4001340ED /* LYEditContactViewModel.m */; };
 		184874D122E0714400E18B6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184874D022E0714400E18B6F /* AppDelegate.m */; };
 		184874D722E0714400E18B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184874D522E0714400E18B6F /* Main.storyboard */; };
 		184874D922E0714500E18B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184874D822E0714500E18B6F /* Assets.xcassets */; };
@@ -47,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182F188922E53AC4001340ED /* LYEditContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYEditContactsViewController.h; sourceTree = "<group>"; };
+		182F188A22E53AC4001340ED /* LYEditContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYEditContactsViewController.m; sourceTree = "<group>"; };
+		182F188C22E564A4001340ED /* LYEditContactViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYEditContactViewModel.h; sourceTree = "<group>"; };
+		182F188D22E564A4001340ED /* LYEditContactViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYEditContactViewModel.m; sourceTree = "<group>"; };
 		184874CC22E0714400E18B6F /* SimpleContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184874CF22E0714400E18B6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		184874D022E0714400E18B6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -304,6 +310,8 @@
 				188D192022E1B43700BA00F3 /* LYContactsViewController.m */,
 				188D192622E1BBB600BA00F3 /* LYAddContactsViewController.h */,
 				188D192722E1BBB600BA00F3 /* LYAddContactsViewController.m */,
+				182F188922E53AC4001340ED /* LYEditContactsViewController.h */,
+				182F188A22E53AC4001340ED /* LYEditContactsViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -313,6 +321,8 @@
 			children = (
 				188D192322E1B7C300BA00F3 /* LYContactsViewModel.h */,
 				188D192422E1B7C300BA00F3 /* LYContactsViewModel.m */,
+				182F188C22E564A4001340ED /* LYEditContactViewModel.h */,
+				182F188D22E564A4001340ED /* LYEditContactViewModel.m */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -583,7 +593,9 @@
 				188D192122E1B43700BA00F3 /* LYContactsViewController.m in Sources */,
 				188D191522E1503A00BA00F3 /* LYLoginViewModel.m in Sources */,
 				188D192C22E1C78000BA00F3 /* LYContact.m in Sources */,
+				182F188B22E53AC4001340ED /* LYEditContactsViewController.m in Sources */,
 				1848750F22E0770400E18B6F /* LYViewController.m in Sources */,
+				182F188E22E564A4001340ED /* LYEditContactViewModel.m in Sources */,
 				188D192822E1BBB600BA00F3 /* LYAddContactsViewController.m in Sources */,
 				184874DF22E0714500E18B6F /* main.m in Sources */,
 				184874D122E0714400E18B6F /* AppDelegate.m in Sources */,

@@ -13,4 +13,6 @@
 #define WeakSelf(type)  __weak typeof(type) weak##type = type; // weak
 #define StrongSelf(type)  __strong typeof(type) type = weak##type; // strong
 
+#define LYFilePath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject] stringByAppendingPathComponent:@"contacts.data"]
+
 #endif /* UtilsMacro_h */
